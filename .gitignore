@@ -1,0 +1,90 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === 虚拟环境 ===
+venv/
+ENV/
+env/
+.env/
+.venv/
+env.bak/
+venv.bak/
+
+# === 测试 & 覆盖率 ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# === IDE / 编辑器 ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === FastAPI / 后端特有 ===
+# 环境变量（数据库密码、密钥等敏感信息）
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# 日志文件
+*.log
+logs/
+
+# 运行时生成的文件
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# 上传的临时文件/用户文件（如果有本地存储）
+uploads/
+media/
+tmp/
+temp/
+
+# Uvicorn 相关
+*.pid
+
+# === 其他 ===
+# 本地配置文件
+local_settings.py
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
