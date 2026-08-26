@@ -3,8 +3,13 @@ name = "fastapi-demo2"
 version = "0.1.0"
 requires-python = ">=3.14"
 dependencies = [
+    "email-validator>=2.3.0",
     "fastapi[standard]>=0.141.1",
+    "pwdlib[argon2]>=0.3.1",
+    "pyjwt>=2.13.0",
+    "python-multipart>=0.0.32",
+    "sqlmodel>=0.0.39",
 ]
 
 [tool.fastapi]
-entrypoint = "main:app"
+entrypoint = "app.main:app"
